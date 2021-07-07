@@ -1,0 +1,19 @@
+full:
+  printer: D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\printer_Ender3_test.ini
+  print_settings:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\print_Ender3_test.ini 
+  filament:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\filament_PLA.ini 
+
+medium:
+  printer:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\printer_Ender3_test.ini 
+  print_settings:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\print_Ender3_test.ini 
+  filament:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\filament_PLA.ini 
+
+low:
+  printer:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\printer_Ender3_test.ini 
+  print_settings:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\print_Ender3_test.ini 
+  filament:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\filament_PLA.ini 
+
+body:
+  printer:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\printer_Ender3_test.ini 
+  print_settings:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\print_Ender3_test.ini 
+  filament:  D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\filament_PLA.ini   

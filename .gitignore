@@ -1,0 +1,4 @@
+__pycache__/
+output/
+.vscode/
+config/create_table.sql
