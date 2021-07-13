@@ -1,0 +1,16 @@
+.float-left {
+}
+
+.form__fieldset {
+  align-items: baseline;
+  padding: 20px 20px;
+}
+
+.form_label {
+  margin-right: 20px;
+}
+
+.form__input {
+  font-size: 1rem;
+}
+
