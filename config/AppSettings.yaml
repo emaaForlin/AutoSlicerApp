@@ -1,9 +1,5 @@
-DB_HOST: 192.168.0.8
-DB_NAME: app
-DB_PASS: slicer
-DB_PORT: '3306'
 DB_TABLE: toSlice
-DB_USER: slicer
+DB_URI: postgres://ackuvtab:qUlc1fG224DIVWLj21espZbetXnEVPxa@motty.db.elephantsql.com/ackuvtab
 FILES_DIR: D:\Users\emaa_forlin\3D_Objects\
 OUTPUT_DIR: D:\Users\emaa_forlin\Projects\AutoSTLSlicer\output\
 PRESETS_FILE: D:\Users\emaa_forlin\Projects\AutoSTLSlicer\config\presets.yaml

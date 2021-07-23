@@ -1,3 +1,6 @@
-__pycache__/
-output/*
-.vscode/
+__pycache__
+output
+.vscode
+config
+venv
+
