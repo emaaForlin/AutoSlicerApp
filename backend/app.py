@@ -8,7 +8,7 @@ app = Flask(__name__, template_folder="../frontend", static_folder="../frontend/
 
 @app.route("/setup", methods=["POST", "GET"])
 def setup():
-    configFile = "../config/AppSettings.yaml"
+    configFile = "AppSettings.yaml"
     if os.path.exists(configFile) == False:
         DB_URI = request.form.get('db_uri')
         DB_TABLE = request.form.get('db_table')
@@ -89,7 +89,7 @@ def home():
 
 def main():
     global db, db_table, engine, output, configFile
-    configFile = "../config/AppSettings.yaml"
+    configFile = "AppSettings.yaml"
     # Init engine config 
     try:
         with open(configFile, "r") as file:
@@ -138,3 +138,7 @@ def sliceAll(models):
             db.updateEntry(db_table, "ID", id, "SLICED", 1)
     
 
+app.run(host="0.0.0.0", port=8140)
+
+if __name__ == "__main__":
+    app.run()
